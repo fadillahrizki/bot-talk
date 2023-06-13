@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+  outline: 1px solid slategrey;
+}
+
+.active{
+  background: white;
+  color: #333 !important;
+  border-radius: 8px;
+}
+
+.content{
+  height: 93vh;
+  background-color: #181C23;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #DBD6D6;
+}
+
+.content2{
+  height: 79vh;
+  overflow: auto;
+}
+
+.body-link{
+  border-top: 0.5px solid #F24C3D;
+  border-left: 5px solid #F24C3D;
+  border-radius: 20px;
+  max-width: 100%;
+  min-height: 25%;
+  word-wrap: break-word;
+}
+
+.btn {
+  border-radius: 8px;
+  height: 40px;
+  font-weight: 500;
+  border: 2px solid #22A699;
+  color: white;
+}
+
+.btnAdd{
+  box-shadow: 0 0 10px #22A699, 2px 19px 20px rgba(0, 255, 206, 0);
+  color: #22A699;
+}
+
+.btn:hover {
+  background-color: #282A35;
+  color: #f0f0f0;
+}
